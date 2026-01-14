@@ -28,7 +28,7 @@ provider "azurerm" {
   tenant_id       = "8df9ee4f-be5e-4c7a-95d7-8de5dd92bc88"
   subscription_id = "d827ab92-b9a4-4510-85c7-be26b916b9d0"
 }
-resource "azurerm_resource_group" "example202" {
-  name     = "example-resources202"
+resource "azurerm_resource_group" "example" {
+  name     = "example-resources"
   location = "West Europe"
 }
